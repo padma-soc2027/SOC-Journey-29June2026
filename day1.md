@@ -8,4 +8,4 @@
 
 Journey Started 🚀
 #Why SOC?
-Being a home maker for 16 years, I solved many family crisis.As of now,I want to protect people in the digital world.I am passionate about password security and Fraud detection.
+Being a home maker for 16 years, I solved many family crises.As of now,I want to protect people in the digital world.I am passionate about password security and Fraud detection.
