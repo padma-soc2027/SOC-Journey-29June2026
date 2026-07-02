@@ -11,6 +11,7 @@ sudo nmap -sS -T4 -Pn --top-ports 100 45.33.32.156
 ## 🔍 Wireshark Analysis
 **Display Filter:** `ip.dst == 45.33.32.156`  
 **Packets Captured:** 312 TCP SYN packets targeting scanme.nmap.org
+![Wireshark SYN Scan](./screenshots/day7_wireshark.png)
 
 ## 🎓 Learning Outcome
 1. Learned to capture live Nmap scan traffic with Wireshark
