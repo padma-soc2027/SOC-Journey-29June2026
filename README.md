@@ -41,6 +41,13 @@ This repository documents my daily journey learning SOC Analyst skills with real
 
 ## 🔥 Day 10 Highlight: Fail2ban + nftables Setup
 
+**Verification Commands:**
+```bash
+sudo fail2ban-client status sshd
+sudo nft list table inet f2b-table
+**RESULT: Banned IP list 127.0.01 ::1**
+
+
 **Problem**: SSH Brute Force Attacks 
 **Solution**: Auto-ban IP after 3 failed attempts
 
