@@ -7,11 +7,17 @@ This repository documents my daily journey learning SOC Analyst skills with real
 
 ---
 
-## 📌 Lab Overview
-- **OS**: Parrot OS Security Edition
+## 📌 Lab Environment
+**Phase 1:Days 1-10**
+- **OS**: Parrot OS Security Edition on VMWare Workstation
 - **Goal**: Build practical SOC skills - Detection, Analysis, Response
+- **Focus**:WireShark,Nmap,Vulnerability Scanning
 - **Tools Used**: Nmap, Fail2ban, nftables, Wireshark, Bash Scripting
 
+**Phase 2:Day 11 onwards**
+-**OS**:XUbuntu 24.04 LTS on VMWare Workstation
+-**Focus**:Zeek,IDS,Network Monitoring,Log Analysis
+-Reason: Lightweight OS for better IDS/SOC tool performance
 ---
 
 ## 📅 Daily Progress Log
@@ -36,9 +42,9 @@ This repository documents my daily journey learning SOC Analyst skills with real
 | `vuln_result.txt` | Vulnerability scan results |
 | `Incident_Report_Day10.md` | Professional SOC Incident Report template |
 | `report.md` | Daily lab summary |
-
 ---
-
+## Tools Used
+Parrot OS,XUbuntu,Wireshark,NMap,Zeek,VMware
 ## 🔥 Day 10 Highlight: Fail2ban + nftables Setup
 
 **Problem**: SSH Brute Force Attacks 
@@ -58,3 +64,6 @@ mode = aggressive
 sudo fail2ban-client status sshd
 sudo nft list table inet f2b-table
 **RESULT: Banned IP list 127.0.0.1 ::1**
+
+t
+
