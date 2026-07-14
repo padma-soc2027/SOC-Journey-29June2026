@@ -15,9 +15,9 @@ This repository documents my daily journey learning SOC Analyst skills with real
 - **Tools Used**: Nmap, Fail2ban, nftables, Wireshark, Bash Scripting
 
 **Phase 2:Day 11 onwards**
--**OS**:XUbuntu 24.04 LTS on VMWare Workstation
--**Focus**:Zeek,IDS,Network Monitoring,Log Analysis
--Reason: Lightweight OS for better IDS/SOC tool performance
+- **OS**:XUbuntu 24.04 LTS on VMWare Workstation
+- **Focus**:Zeek,IDS,Network Monitoring,Log Analysis
+- **Reason**: Lightweight OS for better IDS/SOC tool performance
 ---
 
 ## 📅 Daily Progress Log
